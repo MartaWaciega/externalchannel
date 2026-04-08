@@ -1,83 +1,32 @@
-/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
+        <title></title>
+        <meta name="description" content="">
 
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
 
-html,
-button,
-input,
-select,
-textarea {
-    color: #222;
-}
+    <body>
+        <button class="open-chat" id="openChatButton"></button>
+        <div class="chat-window">
+            <iframe
+            src="https://messenger-dev5-dev-ed.develop.my.site.com/externalchannelextermination/external-channel-extermination"
+            scrolling="no"
+            frameborder="0"
+            id="AutoIframeHeight"
+            width="100%"
+            height="100%"
+            border="1px solid darkgrey"
+            borderradius="0.3rem"
+            ></iframe>
+        </div>
 
-html {
-    font-size: 1em;
-    line-height: 1.4;
-}
-
-/*
- * Remove text-shadow in selection highlight: h5bp.com/i
- * These selection rule sets have to be separate.
- * Customize the background color to match your design.
- */
-
-::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-
-::selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-
-/*
- * A better looking default horizontal rule
- */
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
-/*
- * Remove the gap between images, videos, audio and canvas and the bottom of
- * their containers: h5bp.com/i/440
- */
-
-audio,
-canvas,
-img,
-video {
-    vertical-align: middle;
-}
-
-/*
- * Remove default fieldset styles.
- */
-
-fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
-}
-
-/*
- * Allow only vertical resizing of textareas.
- */
-
-textarea {
-    resize: vertical;
-}
+        <script src="js/main.js"></script>
+    </body>
+</html>
